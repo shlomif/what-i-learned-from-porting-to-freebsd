@@ -28,8 +28,13 @@ The Projects
 
 * https://www.shlomifish.org/meta/site-source/
 
-Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
+* Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
 XHTML5, XHTML1.1, Website META Language, JavaScript and more.
+
+* Work fine on several Linux distributions and have
+https://en.wikipedia.org/wiki/Travis_CI using Ubuntu 14.04 hosts
+
+* Some pass builds and tests on AppVeyor/Win64
 
 [id="lessons"]
 What I Learned:
