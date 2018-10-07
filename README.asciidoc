@@ -25,3 +25,36 @@ The Projects
 * https://better-scm.shlomifish.org/source/
 
 * http://perl-begin.org/source/
+
+Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
+XHTML5, XHTML1.1, Website META Language, JavaScript and more.
+
+[id="lessons"]
+What I Learned:
+---------------
+
+Some executables on FreeBSD are in /usr/local/bin instead of /usr/bin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On Linux they are almost always in +/usr/bin/+
+
+* https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/home-bin-executables/bin/fix-perl-shebang.pl[script to fix the perl shebang line]
+
+* +/usr/bin/env+ is your friend.
+
+make on FreeBSD is not GNU make
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* One can use +gmake+
+
+* No +gmake+ on Debian/Ubuntu/etc.
++
+* Solution:
++
+--------------
+mkdir -p ~/bin
+ln -sf /usr/bin/make ~/bin/gmake
+export PATH="$HOME/bin:$PATH"
+--------------
+
+
