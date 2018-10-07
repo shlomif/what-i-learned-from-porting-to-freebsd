@@ -42,6 +42,15 @@ https://en.wikipedia.org/wiki/Travis_CI using Ubuntu 14.04 hosts
 What I Learned:
 ---------------
 
+[id="reliable"]
+FreeBSD on VBox has become very reliable
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Survived a host power interruption - https://twitter.com/shlomif/status/1048852791987527680 .
+
+* I recall that some years back, rebooting with X running (because input was
+not enabled) has https://en.wikipedia.org/wiki/List_of_military_slang_terms#FUBAR[FUBARed] the +/etc+ directory prompting a reinstall, so freebsd on vbox has come a long way.
+
 [id="usr_local"]
 Some executables on FreeBSD are in /usr/local/bin instead of /usr/bin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
