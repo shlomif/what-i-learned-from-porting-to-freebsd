@@ -16,6 +16,8 @@ to get my software projects to build and pass the tests there.
 The Projects
 ------------
 
+* https://github.com/shlomif/shlomif-computer-settings/ (my dotfiles).
+
 * https://web-cpan.shlomifish.org/latemp/
 
 * https://fc-solve.shlomifish.org/
