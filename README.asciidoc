@@ -26,6 +26,8 @@ The Projects
 
 * http://perl-begin.org/source/
 
+* https://www.shlomifish.org/meta/site-source/
+
 Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
 XHTML5, XHTML1.1, Website META Language, JavaScript and more.
 
@@ -45,11 +47,11 @@ On Linux they are almost always in +/usr/bin/+
 make on FreeBSD is not GNU make
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* One can use +gmake+
+* One can call +gmake+
 
 * No +gmake+ on Debian/Ubuntu/etc.
 +
-* Solution:
+* Solution for Debian:
 +
 --------------
 mkdir -p ~/bin
@@ -57,4 +59,8 @@ ln -sf /usr/bin/make ~/bin/gmake
 export PATH="$HOME/bin:$PATH"
 --------------
 
+m4 on FreeBSD is not compatible with GNU m4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* Fixed in https://github.com/thewml/website-meta-language/commit/97c4ce264b66c880ea0016c096fda9d3188c0f4e[this commit] by first checking for +gm4+ and
+then falling back on plain +m4+.
