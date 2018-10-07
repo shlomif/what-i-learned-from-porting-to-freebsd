@@ -8,9 +8,9 @@ Shlomi Fish <shlomif@cpan.org>
 Introduction
 ------------
 
-I set up a local FreeBSD VirtualBox VM to test something and it seems to
-work very well. Due to the novelty factor, I decided to get my software
-projects to build and pass the tests there.
+I set up a local https://www.freebsd.org/[FreeBSD] VirtualBox VM to test
+something, and it seems to work very well. Due to the novelty factor, I decided
+to get my software projects to build and pass the tests there.
 
 [id="the_projects"]
 The Projects
