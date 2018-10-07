@@ -104,3 +104,13 @@ DocBook/XSL Does Not Live Under /usr/share/sgml
 * Fixed using a symlink on the freebsd system.
 
 * Unhappy with this solution.
+
+[id="conclusion"]
+Conclusion:
+-----------
+
+[quote, Larry Wall]
+https://www.quotes.net/quote/34583[It is easier to port a shell than a shell script.]
+
+* I ran into some cases where my scriptology was lacking and suboptimal, even
+for my own personal use, and fixed them.
