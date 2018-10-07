@@ -1,0 +1,27 @@
+What I learned from porting my projects to FreeBSD
+==================================================
+Shlomi Fish <shlomif@cpan.org>
+:Date: 2018-10-07
+:Revision: $Id$
+
+[id="intro"]
+Introduction
+------------
+
+I set up a local FreeBSD VirtualBox VM to test something and it seems to
+work very well. Due to the novelty factor, I decided to get my software
+projects to build and pass the tests there.
+
+[id="the_projects"]
+The Projects
+------------
+
+* https://web-cpan.shlomifish.org/latemp/
+
+* https://fc-solve.shlomifish.org/
+
+* https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/
+
+* https://better-scm.shlomifish.org/source/
+
+* http://perl-begin.org/source/
