@@ -40,6 +40,7 @@ https://en.wikipedia.org/wiki/Travis_CI using Ubuntu 14.04 hosts
 What I Learned:
 ---------------
 
+[id="usr_local"]
 Some executables on FreeBSD are in /usr/local/bin instead of /usr/bin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -49,6 +50,7 @@ On Linux they are almost always in +/usr/bin/+
 
 * +/usr/bin/env+ is your friend.
 
+[id="gmake"]
 make on FreeBSD is not GNU make
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -64,12 +66,14 @@ ln -sf /usr/bin/make ~/bin/gmake
 export PATH="$HOME/bin:$PATH"
 --------------
 
+[id="m4"]
 m4 on FreeBSD is not compatible with GNU m4
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Fixed in https://github.com/thewml/website-meta-language/commit/97c4ce264b66c880ea0016c096fda9d3188c0f4e[this commit] by first checking for +gm4+ and
 then falling back on plain +m4+.
 
+[id="cpan_dists"]
 Some CPAN Modules fail to install using local-lib there
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
