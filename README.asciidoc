@@ -82,3 +82,11 @@ Some CPAN Modules fail to install using local-lib there
 * Sometimes +cpanm -n+ ("no test") helps.
 
 * +pkg install -y p5-Foo-Bar+ as root for other times.
+
+[id="docbook_xsl"]
+DocBook/XSL Does Not Live Under /usr/share/sgml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Fixed using a symlink on the freebsd system.
+
+* Unhappy with this solution.
