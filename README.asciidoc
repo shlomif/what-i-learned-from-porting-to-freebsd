@@ -61,6 +61,9 @@ On Linux they are almost always in +/usr/bin/+
 
 * +/usr/bin/env+ is your friend.
 
+* https://www.freebsd.org/cgi/man.cgi?hier%287%29[man hier(7)] explains the
+difference.
+
 [id="gmake"]
 make on FreeBSD is not GNU make
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
