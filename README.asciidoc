@@ -69,3 +69,12 @@ m4 on FreeBSD is not compatible with GNU m4
 
 * Fixed in https://github.com/thewml/website-meta-language/commit/97c4ce264b66c880ea0016c096fda9d3188c0f4e[this commit] by first checking for +gm4+ and
 then falling back on plain +m4+.
+
+Some CPAN Modules fail to install using local-lib there
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* No idea why.
+
+* Sometimes +cpanm -n+ ("no test") helps.
+
+* +pkg install -y p5-Foo-Bar+ as root for other times.
