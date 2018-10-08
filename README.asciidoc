@@ -105,6 +105,26 @@ DocBook/XSL Does Not Live Under /usr/share/sgml
 
 * Unhappy with this solution.
 
+[id="grep_dash_P"]
+FreeBSD's grep does not have a "-P" flag by default
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* "-P" is not in http://pubs.opengroup.org/onlinepubs/009695399/utilities/grep.html[POSIX grep]
+
+* Solution:
++
+-----------------
+-        ) | grep -vP '^<\?xml ver' \
++        ) | perl -p -0777 -e 's%\A<\?xml ver[^>]*>%%' \
+-----------------
+
+* Not exactly the same, but even better.
+
+*
++
+[quote, guy keren]
+Perl is portable shell
+
 [id="conclusion"]
 Conclusion:
 -----------
