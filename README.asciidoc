@@ -120,7 +120,9 @@ FreeBSD's grep does not have a "-P" flag by default
 
 * Not exactly the same, but even better.
 
-* [quote, guy keren]
+*
+
+[quote, guy keren]
 Perl is portable shell
 
 [id="conclusion"]
