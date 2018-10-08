@@ -31,7 +31,7 @@ The Projects
 * https://www.shlomifish.org/meta/site-source/
 
 * Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
-XHTML5, XHTML1.1, Website META Language, JavaScript and more.
+XHTML5, XHTML1.1, https://github.com/thewml/website-meta-language[Website META Language], JavaScript and more.
 
 * Work fine on several Linux distributions and have
 https://en.wikipedia.org/wiki/Travis_CI using Ubuntu 14.04 hosts
@@ -118,7 +118,7 @@ FreeBSD's grep does not have a "-P" flag by default
 +        ) | perl -p -0777 -e 's%\A<\?xml ver[^>]*>%%' \
 -----------------
 
-* Not exactly the same, but even better.
+* Does not exactly do the same operation, but even more correct.
 
 * {blank}
 +
