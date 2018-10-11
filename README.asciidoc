@@ -125,6 +125,14 @@ FreeBSD's grep does not have a "-P" flag by default
 [quote, Guy Keren]
 Perl is portable shell
 
+[id="nproc"]
+FreeBSD has no "nproc" command
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* https://unix.stackexchange.com/questions/108821/number-of-cores-on-freebsd
+
+* Added a small shell exe under +~/bin/nproc+ .
+
 [id="conclusion"]
 Conclusion:
 -----------
