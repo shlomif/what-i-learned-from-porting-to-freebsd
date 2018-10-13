@@ -133,6 +133,14 @@ FreeBSD has no "nproc" command
 
 * Added a small shell exe under +~/bin/nproc+ .
 
+[id="to_do"]
+What still does not work:
+-------------------------
+
+* Valgrind tests fail - possibly due to https://github.com/shlomif/perl-Test-RunValgrind/issues/5[this bug]
+
+* Spellchecking tests fail, like on Ubuntu, as it seems https://en.wikipedia.org/wiki/Hunspell[hunspell] has system-dependent dictionaries.
+
 [id="conclusion"]
 Conclusion:
 -----------
