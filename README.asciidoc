@@ -150,3 +150,9 @@ https://www.quotes.net/quote/34583[It is easier to port a shell than a shell scr
 
 * I ran into some cases where my scriptology was lacking and suboptimal, even
 for my own personal use, and fixed them.
+
+[id="coverage"]
+Coverage:
+---------
+
+* https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[on the /r/freebsd subreddit] - with some discussion
