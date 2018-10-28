@@ -156,3 +156,5 @@ Coverage:
 ---------
 
 * https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[on the /r/freebsd subreddit] - with some discussion
+
+* https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with some discussion
