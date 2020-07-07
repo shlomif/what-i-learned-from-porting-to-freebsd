@@ -131,7 +131,7 @@ FreeBSD has no "nproc" command
 
 * https://unix.stackexchange.com/questions/108821/number-of-cores-on-freebsd
 
-* Added a small shell exe under +~/bin/nproc+ .
+* Added a small shell executable under +~/bin/nproc+ .
 
 [id="to_do"]
 What still does not work:
@@ -158,3 +158,11 @@ Coverage:
 * https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[On the /r/freebsd subreddit] - with some discussion
 
 * https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with some discussion
+
+[id="continuations"]
+Continuations / sequels / updates:
+----------------------------------
+
+* https://github.com/shlomif/why-my-projects-cannot-support-netbsd-yet["Why my projects cannot support NetBSD (yet)"]
+
+* https://github.com/shlomif/why-the-BSDs-should-not-blame-USL-vs-BSDi-for-linux-dominance["Why the BSDs should not blame the USL vs BSDi lawsuits for Linux’s dominance"]
