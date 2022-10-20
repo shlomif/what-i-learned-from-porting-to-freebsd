@@ -55,7 +55,7 @@ not enabled) has https://en.wikipedia.org/wiki/List_of_military_slang_terms#FUBA
 Some executables on FreeBSD are in /usr/local/bin instead of /usr/bin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On Linux they are almost always in +/usr/bin/+
+On Linux they are almost always in +/usr/bin/+ only:
 
 * https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/home-bin-executables/bin/fix-perl-shebang.pl[script to fix the perl shebang line]
 
@@ -139,7 +139,7 @@ What still does not work:
 
 * Valgrind tests fail - possibly due to https://github.com/shlomif/perl-Test-RunValgrind/issues/5[this bug]
 
-* Spellchecking tests fail, like on Ubuntu, as it seems https://en.wikipedia.org/wiki/Hunspell[hunspell] has system-dependent dictionaries.
+* Spellchecking tests fail, like on Ubuntu, as it seems https://en.wikipedia.org/wiki/Hunspell[hunspell] has system-dependent dictionaries. (Workaround: +export SKIP_SPELL_CHECK=1+.)
 
 [id="conclusion"]
 Conclusion:
@@ -157,7 +157,7 @@ Coverage:
 
 * https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[On the /r/freebsd subreddit] - with some discussion
 
-* https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with some discussion
+* https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with a lot of discussion, including some with technical insights.
 
 [id="continuations"]
 Continuations / sequels / updates:
