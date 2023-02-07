@@ -139,7 +139,7 @@ What still does not work:
 
 * Valgrind tests fail - possibly due to https://github.com/shlomif/perl-Test-RunValgrind/issues/5[this bug]
 
-* Spellchecking tests fail, like on Ubuntu, as it seems https://en.wikipedia.org/wiki/Hunspell[hunspell] has system-dependent dictionaries. (Workaround: +export SKIP_SPELL_CHECK=1+.)
+* Spellchecking tests fail, like on Ubuntu, as it seems https://en.wikipedia.org/wiki/Hunspell[hunspell] has system-dependent dictionaries. (Workaround: +export SKIP_SPELL_CHECK=",en,"+.)
 
 [id="conclusion"]
 Conclusion:
