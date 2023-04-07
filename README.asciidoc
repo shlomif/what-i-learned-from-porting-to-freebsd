@@ -163,7 +163,7 @@ Coverage:
 Continuations / sequels / updates:
 ----------------------------------
 
-* https://github.com/shlomif/what-i-learned-from-porting-to-freebsd["https://github.com/shlomif/what-i-learned-from-porting-to-freebsd"]
+* https://github.com/shlomif/what-i-learned-from-porting-to-freebsd["What I learned from porting my projects to FreeBSD"]
 
 * https://github.com/shlomif/why-my-projects-cannot-support-netbsd-yet["Why my projects cannot support NetBSD (yet)"]
 
