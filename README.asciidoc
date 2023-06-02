@@ -131,6 +131,8 @@ FreeBSD has no "nproc" command
 
 * https://unix.stackexchange.com/questions/108821/number-of-cores-on-freebsd
 
+* nproc(1) is available in FreeBSD as of 13.2-RELEASE.
+
 * Added a small shell executable under +~/bin/nproc+ .
 
 [id="to_do"]
