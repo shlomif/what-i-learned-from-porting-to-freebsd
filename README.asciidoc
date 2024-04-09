@@ -49,7 +49,7 @@ FreeBSD on VBox has become very reliable
 * Survived a host power interruption - https://twitter.com/shlomif/status/1048852791987527680 .
 
 * I recall that some years back, rebooting with X running (because input was
-not enabled) has https://en.wikipedia.org/wiki/List_of_military_slang_terms#FUBAR[FUBARed] the +/etc+ directory prompting a reinstall, so freebsd on vbox has come a long way.
+not enabled) has https://en.wikipedia.org/wiki/List_of_military_slang_terms#FUBAR[FUBARed] the +/etc+ directory prompting a reinstall, so FreeBSD on VirtualBox has come a long way.
 
 [id="usr_local"]
 Some executables on FreeBSD are in /usr/local/bin instead of /usr/bin
@@ -70,15 +70,17 @@ make on FreeBSD is not GNU make
 
 * One can call +gmake+
 
-* No +gmake+ on Debian/Ubuntu/etc.
+* No +gmake+ on some older versions of Debian/Ubuntu/etc.
 +
 * Solution for Debian:
 +
 --------------
-mkdir -p ~/bin
-ln -sf /usr/bin/make ~/bin/gmake
+mkdir -p "$HOME/bin"
+ln -sf /usr/bin/make "$HOME/bin/gmake"
 export PATH="$HOME/bin:$PATH"
 --------------
++
+* +gmake+ alias under +/usr/bin/+ is present again in recent versions of Debian.
 
 [id="m4"]
 m4 on FreeBSD is not compatible with GNU m4
@@ -93,7 +95,7 @@ Some CPAN Modules fail to install using local-lib there
 
 * No idea why.
 
-* Sometimes +cpanm -n+ ("no test") helps.
+* Sometimes +cpanm -n+ (“no test”) helps.
 
 * +pkg install -y p5-Foo-Bar+ as root for other times.
 
@@ -101,15 +103,17 @@ Some CPAN Modules fail to install using local-lib there
 DocBook/XSL Does Not Live Under /usr/share/sgml
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Fixed using a symlink on the freebsd system.
+* Fixed using a symlink on the FreeBSD system.
 
 * Unhappy with this solution.
 
+* On the “Hacker News” discussion, it was recommended to use +xsltproc --nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl foobar.xml+ ( https://news.ycombinator.com/item?id=18318771[Reference] )
+
 [id="grep_dash_P"]
-FreeBSD's grep does not have a "-P" flag by default
+FreeBSD's grep does not have a “-P” flag by default
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* "-P" is not in http://pubs.opengroup.org/onlinepubs/009695399/utilities/grep.html[POSIX grep]
+* The “-P” flag is not in http://pubs.opengroup.org/onlinepubs/009695399/utilities/grep.html[the POSIX’s grep specification]
 
 * Solution:
 +
@@ -157,7 +161,7 @@ for my own personal use, and fixed them.
 Coverage:
 ---------
 
-* https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[On the /r/freebsd subreddit] - with some discussion
+* https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[On the /r/freebsd subreddit] - with some discussion.
 
 * https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with a lot of discussion, including some with technical insights.
 
@@ -165,8 +169,8 @@ Coverage:
 Continuations / sequels / updates:
 ----------------------------------
 
-* https://github.com/shlomif/what-i-learned-from-porting-to-freebsd["What I learned from porting my projects to FreeBSD"]
+* https://github.com/shlomif/what-i-learned-from-porting-to-freebsd[“What I learned from porting my projects to FreeBSD”]
 
-* https://github.com/shlomif/why-my-projects-cannot-support-netbsd-yet["Why my projects cannot support NetBSD (yet)"]
+* https://github.com/shlomif/why-my-projects-cannot-support-netbsd-yet[“Why my projects cannot support NetBSD (yet)”]
 
-* https://github.com/shlomif/why-the-BSDs-should-not-blame-USL-vs-BSDi-for-linux-dominance["Why the BSDs should not blame the USL vs BSDi lawsuits for Linux’s dominance"]
+* https://github.com/shlomif/why-the-BSDs-should-not-blame-USL-vs-BSDi-for-linux-dominance[“Why the BSDs should not blame the USL vs BSDi lawsuits for Linux’s dominance”]
