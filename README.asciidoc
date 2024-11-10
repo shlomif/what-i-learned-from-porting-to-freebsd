@@ -31,7 +31,7 @@ The Projects
 * https://www.shlomifish.org/meta/site-source/
 
 * Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
-XHTML5, XHTML1.1, https://github.com/thewml/website-meta-language[Website META Language], JavaScript and more.
+XHTML5, XHTML1.1, https://github.com/thewml/website-meta-language[Website META Language], JavaScript, and more.
 
 * Work fine on several Linux distributions and have
 https://en.wikipedia.org/wiki/Travis_CI using Ubuntu 14.04 hosts
@@ -108,6 +108,8 @@ DocBook/XSL Does Not Live Under /usr/share/sgml
 * Unhappy with this solution.
 
 * On the “Hacker News” discussion, it was recommended to use +xsltproc --nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl foobar.xml+ ( https://news.ycombinator.com/item?id=18318771[Reference] )
+
+* What about +ruby …/dbtoepub+ ?
 
 [id="grep_dash_P"]
 FreeBSD's grep does not have a “-P” flag by default
